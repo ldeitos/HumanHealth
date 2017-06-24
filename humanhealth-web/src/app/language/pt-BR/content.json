@@ -1,0 +1,18 @@
+{
+    "appName": "Human Health",
+    "appNameLogo": "HumanHealth",
+    "appShortName": "HH",
+
+    "authForgetPassword": "Esqueceu sua senha?",
+    "authHaveAccount": "Já possiu conta?",
+    "authKeepLoggedIn": "Mantenha-me logado",
+    "authLogginWith": "Entre com",
+    "authMailUser": "E-mail ou Usuário",
+    "authNewHere": "Novo aqui?",
+    "authOr": "Ou",
+    "authPassword": "Senha",
+    "authRegister": "Registre-se",
+    "authSignIn": "Entrar"
+
+
+}
