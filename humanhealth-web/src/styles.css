@@ -1,48 +1,11 @@
-#login-dp{
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
+@import url(./assets/landing-page.css);
+
+.app-container {
+    min-height: 75%;
 }
-#login-dp .help-block{
-    font-size:12px    
+
+.router-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-#login-dp .bottom{
-    background-color:rgba(255,255,255,.8);
-    border-top:1px solid #ddd;
-    clear:both;
-    padding:14px;
-}
-#login-dp .social-buttons{
-    margin:12px 0    
-}
-#login-dp .social-buttons a{
-    width: 32%;
-}
-#login-dp .form-group {
-    margin-bottom: 10px;
-}
-.btn-fb{
-    color: #fff;
-    background-color:#3b5998;
-}
-.btn-fb:hover{
-    color: #fff;
-    background-color:#496ebc; 
-}
-.btn-tw{
-    color: #fff;
-    background-color:#55acee;
-}
-.btn-tw:hover{
-    color: #fff;
-    background-color:#59b5fa;
-}
-.btn-gg{
-    color: #fff;
-    background-color:#db3236;
-}
-.btn-gg:hover{
-    color: #fff;
-    background-color:#e05254;
-}
+

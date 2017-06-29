@@ -1,18 +1,20 @@
 {
+    "appDevStage": "-alpha",
     "appName": "Human Health",
+    "appSubtitle": "Informações sobre sua saúde a qualquer hora, em qualquer lugar.",
     "appNameLogo": "HumanHealth",
     "appShortName": "HH",
+    
+    "authSignIn": "Entrar",
+    "authSignOut": "Sair",
 
-    "authForgetPassword": "Esqueceu sua senha?",
-    "authHaveAccount": "Já possiu conta?",
-    "authKeepLoggedIn": "Mantenha-me logado",
-    "authLogginWith": "Entre com",
-    "authMailUser": "E-mail ou Usuário",
-    "authNewHere": "Novo aqui?",
-    "authOr": "Ou",
-    "authPassword": "Senha",
-    "authRegister": "Registre-se",
-    "authSignIn": "Entrar"
+    "lpForYou": "Para Você",
+    "lpForYouText": "Todas as informações referentes à sua saúde em só lugar, a qualquer tempo:<br><ul class='none'><li class='hiphen'>Histórico dos exames laboratoriais</li><li class='hiphen'>Dados sobre doenças crônicas</li><li class='hiphen'>Medicamentos de uso contínuo</li><li class='hiphen'>Histórico das imunizações</li></ul>",
+    "lpForHealthProfessionals": "Para Profissionais de Saúde",
+    "lpForHealthProfessionalsText": "Tenha acesso rápido aos resultados dos exames de seus pacientes a qualquer hora e em qualquer lugar.<br>Veja o histórico dos resultados dos exames solicitados, além de correlações entre os resultados.",
+    "lpForScientificCommunity": "Para a Comunidade Científica",
+    "lpForScientificCommunityText": "Acesso a dados consolidados e estatísticos a cerca da saúde populacional por região."
+
 
 
 }

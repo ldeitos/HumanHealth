@@ -1,16 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { Injector } from '@angular/core';
-
-import { Ng2UiAuthModule } from 'ng2-ui-auth';
+import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { LanguageService } from './language/language.service';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule, ROUTER_PROVIDERS } from './app-routing.module';
-import { AuthComponent } from './auth/auth.component';
-import { AuthConfig } from './auth/auth.config';
+import { ROUTES, ROUTER_PROVIDERS } from './app-routing.module';
+import { AuthService } from './auth/auth.service';
 import { MainComponent } from './hh-main.component';
 import { PublicComponent } from './hh-public.component';
 
@@ -18,20 +16,19 @@ import 'hammerjs';
 
 @NgModule({
   providers: [
+    AuthService,
     LanguageService,
-    ROUTER_PROVIDERS
+    ROUTER_PROVIDERS  
   ],
   declarations: [
-    AppComponent,
-    AuthComponent,
+    AppComponent,    
     MainComponent,
     PublicComponent
   ],
-  imports: [
-    AppRoutingModule,
+  imports: [    
     BrowserModule,
     HttpModule,
-    Ng2UiAuthModule.forRoot(AuthConfig),
+    RouterModule.forRoot(ROUTES, { useHash: true })
   ],
   bootstrap: [AppComponent]
 })

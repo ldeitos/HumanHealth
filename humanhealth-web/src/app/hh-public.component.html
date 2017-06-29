@@ -1,1 +1,95 @@
-public
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>{{getLocalizedValue('appNameLogo')}}{{getLocalizedValue('appDevStage')}}</h1>
+                    <h3>{{getLocalizedValue('appSubtitle')}}</h3>
+                    <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-a">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">{{getLocalizedValue('lpForYou')}}</h2>
+                <p class="lead" [innerHTML]="getLocalizedValueAsHtml('lpForYouText')"></p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="../assets/img/hands-laptop-S.jpg" alt="">
+            </div>
+        </div>
+    </div>    
+</div>
+
+<div class="content-section-b">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">{{getLocalizedValue('lpForHealthProfessionals')}}</h2>
+                <p class="lead" [innerHTML]="getLocalizedValueAsHtml('lpForHealthProfessionalsText')"></p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <img class="img-responsive" src="../assets/img/doctor-medical-P.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-c">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">{{getLocalizedValue('lpForScientificCommunity')}}</h2>
+                <p class="lead">{{getLocalizedValue('lpForScientificCommunityText')}}</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="../assets/img/microscope-P.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div  class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Connect to Start Bootstrap:</h2>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

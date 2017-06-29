@@ -9,14 +9,9 @@ export const ROUTER_PROVIDERS = [
     AuthGuardComponent
 ];
 
-const routes: Routes = [
+export const ROUTES: Routes = [
   { path: '', redirectTo: '/public', pathMatch: 'full' },  
   { path: 'public', component: PublicComponent },
-  { path: 'main', component: MainComponent, canActivate: [AuthGuardComponent] }
+  { path: 'main', component: MainComponent, canActivate: [AuthGuardComponent] },  
+  { path: '**', redirectTo: '' }
 ];
- 
-@NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
-})
-export class AppRoutingModule {}
