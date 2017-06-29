@@ -1,0 +1,15 @@
+package br.com.humanhealth.security.interceptor.impl;
+
+import javax.interceptor.AroundInvoke;
+import javax.interceptor.Interceptor;
+import javax.interceptor.InvocationContext;
+
+@Interceptor
+public class LoggedInInterceptor {
+
+    @AroundInvoke
+    public Object check(InvocationContext ctx) throws Exception {  
+	
+	return ctx.proceed();
+    }
+}

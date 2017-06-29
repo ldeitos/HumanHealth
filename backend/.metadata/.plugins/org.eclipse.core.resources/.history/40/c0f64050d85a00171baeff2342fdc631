@@ -1,0 +1,13 @@
+package br.com.humanhealth.security.interceptor;
+
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+import java.lang.annotation.Retention;
+
+import javax.interceptor.Interceptor;
+
+@Retention(RUNTIME)
+@Interceptor
+public @interface LoggedIn {
+
+}

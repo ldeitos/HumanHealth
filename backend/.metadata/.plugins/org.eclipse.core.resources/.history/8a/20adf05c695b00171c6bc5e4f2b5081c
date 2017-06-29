@@ -1,0 +1,6 @@
+package br.com.humanhealth.persistence.impl;
+
+
+public class GCloudStoreLoader {
+
+}

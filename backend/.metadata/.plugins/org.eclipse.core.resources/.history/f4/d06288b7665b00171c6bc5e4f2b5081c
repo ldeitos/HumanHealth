@@ -1,0 +1,15 @@
+package br.com.humanhealth.persistence;
+
+import java.io.Serializable;
+
+public interface DAOBase<E> {
+    
+    E load(Serializable id);
+    
+    E save(E entity);
+    
+    E update(E entity);
+    
+    void remove(E entity);
+
+}

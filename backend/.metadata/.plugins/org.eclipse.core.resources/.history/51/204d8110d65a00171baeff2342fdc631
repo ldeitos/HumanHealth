@@ -1,0 +1,11 @@
+package br.com.humanhealth.language;
+
+public class DescriptionLoader extends PropertieLoader {
+
+    @Override
+    protected String getPropertieFileName() {
+	// TODO Auto-generated method stub
+	return null;
+    }
+
+}

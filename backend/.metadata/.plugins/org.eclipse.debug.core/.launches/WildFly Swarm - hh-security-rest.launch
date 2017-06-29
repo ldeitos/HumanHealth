@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.tools.servers.wildfly.swarm.core.serverLaunchConfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.jboss.tools.servers.wildfly.swarm.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.wildfly.swarm.Swarm"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hh-security-rest"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" -noverify -server -Xms512m -Xmx512m -Djava.net.preferIPv4Stack=true -Dswarm.bind.address=127.0.0.1  -Dswarm.port.offset=2"/>
+<stringAttribute key="server-id" value="WildFly Swarm - hh-security-rest"/>
+</launchConfiguration>

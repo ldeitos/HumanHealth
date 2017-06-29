@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=hh-rest-core/src\/main\/java&lt;br.com.humanhealth.api{Api.java[Api" modifiers="1" timestamp="1498585880480"/>
+<typeInfo handle="=hh-persistence-base/src\/main\/java&lt;br.com.humanhealth.persistence{DAO.java[DAO" modifiers="513" timestamp="1498588424782"/>
+<typeInfo handle="=gcloud-example/C:\/Users\/Deitos\/.m2\/repository\/com\/googlecode\/objectify\/objectify\/5.1.13\/objectify-5.1.13.jar&lt;com.googlecode.objectify(ObjectifyFilter.class[ObjectifyFilter" modifiers="33" timestamp="1497931973300"/>
+<typeInfo handle="=gcloud-example/C:\/Program Files\/Java\/jdk1.8.0_121\/jre\/lib\/rt.jar&lt;java.util.zip(ZipException.class[ZipException" modifiers="33" timestamp="1487891998009"/>
+<typeInfo handle="=hh-security-core/src\/main\/java&lt;br.com.humanhealth.security.context{SecurityContext.java[SecurityContext" modifiers="513" timestamp="1498530137914"/>
+</typeInfoHistroy>

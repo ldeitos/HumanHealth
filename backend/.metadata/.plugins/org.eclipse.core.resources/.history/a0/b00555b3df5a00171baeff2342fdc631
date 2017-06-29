@@ -1,0 +1,57 @@
+package br.com.humanhealth.filter;
+
+import java.io.IOException;
+
+import javax.enterprise.inject.spi.CDI;
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+
+import br.com.humanhealth.security.context.SecurityContext;
+
+/**
+ * Request filter to create initial security context.
+ * 
+ * @author Deitos
+ *
+ */
+public class AuthFilter extends  FilterBase {
+    private static final String AUTHORIZATION_READER_NAME = "Authorization";
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+	    throws IOException, ServletException {
+	SecurityContext secCtx = CDI.current().select(SecurityContext.class).get();
+	String token = getToken(request);
+	
+	secCtx.login(token);
+
+	chain.doFilter(request, response);
+	
+    }
+
+    private String getToken(ServletRequest request) {	
+	String token = ""; 
+	HttpServletRequest httpRequest = toHttpRequest(request);
+	
+	if(httpRequest != null){
+	    token = httpRequest.getHeader(AUTHORIZATION_READER_NAME);
+	    token = token.replaceAll("Bearer ", "");
+	}	
+	
+	return token;
+    }
+
+    private HttpServletRequest toHttpRequest(ServletRequest request) {
+	HttpServletRequest httpRequest = null;
+	
+	if(request instanceof HttpServletRequest){
+	    httpRequest = (HttpServletRequest) request;
+	}
+	
+	return httpRequest;
+    }
+
+}

@@ -1,0 +1,35 @@
+package br.com.humanhealth.persistence.interceptor;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.interceptor.Interceptor;
+import javax.interceptor.InvocationContext;
+
+import com.googlecode.objectify.ObjectifyService;
+import com.googlecode.objectify.TxnType;
+import com.googlecode.objectify.VoidWork;
+
+import br.com.humanhealth.persistence.TransactionType;
+import br.com.humanhealth.persistence.Transactional;
+
+@Interceptor
+@Transactional
+public class TransactionalInterceptor {
+    
+    public static final Map<TransactionType, TxnType> txType = new HashMap<>();
+
+    public Object doTransact(final InvocationContext ic) throws Exception {
+	final Object toReturn;
+	final TransactionType type = null;
+	
+	ObjectifyService.ofy().execute(, work)(type, new VoidWork() {
+	    @Override
+	    public void vrun() {
+		toReturn = ic.proceed();		
+	    }
+	});
+	
+	return toReturn;
+    }
+}

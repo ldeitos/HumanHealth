@@ -1,0 +1,22 @@
+package br.com.humanhealth.persistence;
+
+import java.io.Serializable;
+
+/**
+ * Interface to data access object implementations.
+ * 
+ * @author Deitos
+ *
+ * @param <E>
+ */
+public interface DAO<E> {
+    
+    E load(Serializable id);
+    
+    E save(E entity);
+    
+    E update(E entity);
+    
+    void remove(E entity);
+
+}

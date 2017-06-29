@@ -1,0 +1,15 @@
+package br.com.humanhealth.persistence;
+
+/**
+ * Interface to data access object implementations.
+ * 
+ * @author Deitos
+ *
+ * @param <E> Generic Entity type.
+ */
+public interface GCloudDAO<E> extends DAO<E> {
+    
+
+    
+
+}

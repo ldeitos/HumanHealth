@@ -1,0 +1,5 @@
+package br.com.humanhealth.language;
+
+public class DescriptionLoader {
+
+}

@@ -1,0 +1,44 @@
+package br.com.humanhealth.persistence;
+
+import java.io.Serializable;
+
+import com.googlecode.objectify.Key;
+
+import br.com.humanhealth.persistence.constant.PersistenceConstant;
+
+/**
+ * Interface to data access object implementations.
+ * 
+ * @author Deitos
+ *
+ * @param <E> Generic Entity type.
+ */
+public interface GCloudDAO<E> extends DAO<E> {
+    
+    /**
+     * Save entity at parameterized NameSpace. After do the operation, set the
+     * default NameSpace again.
+     * 
+     * @param entity
+     *            Entity to be save.
+     * 
+     * @param nameSpace
+     *            Specified NameSpace to save the entity.
+     * 
+     * @see PersistenceConstant#GOOGLE_DS_DEFAULT_NAME_SPACE
+     */
+    E save(E entity, String nameSpace);
+    
+    /**
+     * Load entity, by id, from parameterized NameSpace. Not safe to identify
+     * solely the entity instance because in google DataStore API unique
+     * identifier to a entity is the {@link Key}. Use preferably
+     * {@link #loadFromKey(Key)} to do that. <br>
+     * After complete the operation set default NameSpace again.
+     *
+     * 
+     * @see PersistenceConstant#GOOGLE_DS_DEFAULT_NAME_SPACE
+     */
+    public E load(Serializable id, String namespace);
+
+}

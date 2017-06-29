@@ -1,0 +1,4 @@
+br\com\humanhealth\persistence\impl\GCloudDAOBase.class
+br\com\humanhealth\persistence\GCloudDAO.class
+br\com\humanhealth\persistence\constant\PersistenceConstant.class
+br\com\humanhealth\persistence\impl\GCloudStoreLoader.class

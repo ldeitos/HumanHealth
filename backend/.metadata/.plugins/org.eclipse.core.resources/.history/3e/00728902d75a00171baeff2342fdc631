@@ -1,0 +1,10 @@
+package br.com.humanhealth.security.context;
+
+/**
+ * Application security context 
+ * @author Deitos
+ *
+ */
+public interface SecurityContext {
+
+}

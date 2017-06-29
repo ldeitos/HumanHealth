@@ -1,0 +1,22 @@
+package br.com.humanhealth.persistence.impl;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+
+import com.googlecode.objectify.ObjectifyService;
+
+import br.com.humanhealth.entity.mapper.SystemEntities;
+
+@Startup
+@Singleton
+public class GCloudStoreLoader {
+
+    @PostConstruct
+    public void loadEntities(){
+	for(Class<?> entityClass : SystemEntities.ENTITIES){
+	    ObjectifyService.register(entityClass);
+	}
+    }
+
+}

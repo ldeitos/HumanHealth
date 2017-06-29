@@ -1,0 +1,4 @@
+br\com\humanhealth\entity\Description.class
+br\com\humanhealth\entity\mapper\SystemEntities.class
+br\com\humanhealth\entity\User.class
+br\com\humanhealth\entity\UserType.class

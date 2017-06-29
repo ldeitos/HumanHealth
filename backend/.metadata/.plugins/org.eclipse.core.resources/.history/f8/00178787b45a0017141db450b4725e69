@@ -1,0 +1,5 @@
+package br.com.humanhealth.constant;
+
+public interface SystemConstant {
+    String GOOGLE_DS_DEFAULT_NAME_SPACE= "hh-system-ns-YnFpYe9kqj";
+}

@@ -1,0 +1,8 @@
+1498588024570	Delete element
+1498588033986	Rename package 'br.com.humanhealth.security.business'
+1498588238305	Rename type 'DAOBase'
+1498608457664	Move compilation unit
+1498608656569	Rename type 'Transaction'
+1498608662250	Rename type 'TransactionInterceptor'
+1498608807550	Extract local variable 'proceed'
+1498608892143	Delete element

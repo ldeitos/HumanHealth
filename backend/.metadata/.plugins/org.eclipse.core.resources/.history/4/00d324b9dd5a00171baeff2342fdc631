@@ -1,0 +1,7 @@
+package br.com.humanhealth.filter;
+
+import javax.servlet.Filter;
+
+public class AuthFilter implements Filter {
+
+}

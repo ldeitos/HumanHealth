@@ -1,0 +1,9 @@
+1498588565403	Rename type 'DAO'
+1498607979012	Copy file
+1498609725112	Extract local variable 'string'
+1498610479529	Extract local variable 'value'
+1498613254738	Extract local variable 'loadFromKey'
+1498613526833	Extract local variable 'orElse'
+1498613633078	Extract local variable 'entity2'
+1498613793220	Extract local variable 'now'
+1498614020985	Copy compilation unit

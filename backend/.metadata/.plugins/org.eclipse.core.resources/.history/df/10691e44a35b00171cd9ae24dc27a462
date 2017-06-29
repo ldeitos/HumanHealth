@@ -1,0 +1,20 @@
+package br.com.humanhealth.security.context.impl;
+
+import javax.enterprise.context.RequestScoped;
+
+import br.com.humanhealth.entity.User;
+import br.com.humanhealth.security.context.SecurityContext;
+import lombok.Getter;
+
+@RequestScoped
+public class SecurityContextImpl implements SecurityContext {
+    
+    private @Getter String userLanguage;
+    
+    private @Getter String userNameDpace; 
+    
+    private @Getter User user;
+
+    
+
+}

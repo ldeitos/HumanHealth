@@ -1,0 +1,5 @@
+package br.com.humanhealth.security.interceptor.impl;
+
+public class LoggedInImpl {
+
+}

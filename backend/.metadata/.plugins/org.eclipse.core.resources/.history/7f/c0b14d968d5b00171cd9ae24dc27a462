@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="hh-security-rest-0.1.0-alpha">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="hh-security-core-0.1.0-alpha.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hh-security-core/hh-security-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hh-gcloudstore-core-0.1.0-alpha.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hh-gcloudstore-core/hh-gcloudstore-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hh-security-business-0.1.0-alpha.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hh-security-business/hh-security-business">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hh-rest-core-0.1.0-alpha.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hh-rest-core/hh-rest-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="hh-security-rest"/>
+        <property name="java-output-path" value="/hh-security-rest/target/classes"/>
+    </wb-module>
+</project-modules>

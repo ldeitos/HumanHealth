@@ -1,0 +1,11 @@
+package br.com.humanhealth.persistence.impl.interceptor;
+
+import javax.interceptor.Interceptor;
+
+import br.com.humanhealth.persistence.Transaction;
+
+@Interceptor
+@Transaction
+public class TransactionInterceptor {
+
+}

@@ -1,0 +1,28 @@
+package br.com.humanhealth.persistence;
+
+import br.com.humanhealth.persistence.constant.PersistenceConstant;
+
+/**
+ * Interface to data access object implementations.
+ * 
+ * @author Deitos
+ *
+ * @param <E> Generic Entity type.
+ */
+public interface GCloudDAO<E> extends DAO<E> {
+    
+    /**
+     * Save entity at parameterized NameSpace.
+     * 
+     * @param entity
+     *            Entity to be save.
+     * 
+     * @param nameSpace
+     *            Specified NameSpace to save the entity.
+     * 
+     * @see PersistenceConstant#GOOGLE_DS_DEFAULT_NAME_SPACE
+     */
+    E save(E entity, String nameSpace);
+    
+
+}

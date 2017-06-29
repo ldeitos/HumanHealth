@@ -1,0 +1,6 @@
+package br.com.humanhealth.security.filter;
+
+@filte
+public class AuthFilter {
+
+}
