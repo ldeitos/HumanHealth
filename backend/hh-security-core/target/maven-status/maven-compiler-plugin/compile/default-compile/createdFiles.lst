@@ -1,4 +1,0 @@
-br\com\humanhealth\security\context\SecurityContext.class
-br\com\humanhealth\security\interceptor\impl\LoggedInInterceptor.class
-br\com\humanhealth\security\context\impl\SecurityContextImpl.class
-br\com\humanhealth\security\interceptor\LoggedIn.class
