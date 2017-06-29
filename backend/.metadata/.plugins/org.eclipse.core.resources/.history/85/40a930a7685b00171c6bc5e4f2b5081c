@@ -1,8 +1,0 @@
-package br.com.humanhealth.entity;
-
-import br.com.humanhealth.entity.Description;
-import br.com.humanhealth.entity.User;
-
-public interface SystemEntities {
-    Class<?>[] ENTITIES = {Description.class, User.class}; 
-}

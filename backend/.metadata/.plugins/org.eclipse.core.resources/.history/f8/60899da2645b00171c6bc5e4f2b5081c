@@ -1,7 +1,0 @@
-package br.com.humanhealth.business;
-
-public interface UserBC {
-    
-    public Boolean hasUser(String mail); 
-
-}

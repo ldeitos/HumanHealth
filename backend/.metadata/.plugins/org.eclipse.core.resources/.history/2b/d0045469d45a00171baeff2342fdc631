@@ -1,5 +1,0 @@
-package br.com.humanhealth.language;
-
-public abstract class PropertieLoader {
-
-}

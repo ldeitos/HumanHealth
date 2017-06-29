@@ -1,5 +1,0 @@
-package br.com.humanhealth.security.context.impl;
-
-public class SecurityContextImpl {
-
-}

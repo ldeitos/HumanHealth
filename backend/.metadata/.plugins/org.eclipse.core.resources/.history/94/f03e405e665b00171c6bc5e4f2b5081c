@@ -1,7 +1,0 @@
-package br.com.humanhealth.persistence;
-
-public interface DAOBase<T> {
-    
-    T load(String id);
-
-}

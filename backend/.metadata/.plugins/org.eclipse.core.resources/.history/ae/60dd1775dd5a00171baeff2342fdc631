@@ -1,5 +1,0 @@
-package br.com.humanhealth.filter;
-
-public class AuthFilter {
-
-}

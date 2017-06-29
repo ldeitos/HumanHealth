@@ -1,9 +1,0 @@
-package br.com.humanhealth.persistence;
-
-import java.io.Serializable;
-
-public interface DAOBase<T> {
-    
-    T load(Serializable id);
-
-}

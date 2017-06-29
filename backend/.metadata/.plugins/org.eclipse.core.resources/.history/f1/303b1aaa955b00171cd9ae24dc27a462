@@ -1,5 +1,0 @@
-package br.com.humanhealth.persistence.impl;
-
-public enum TransactionType {
-
-}

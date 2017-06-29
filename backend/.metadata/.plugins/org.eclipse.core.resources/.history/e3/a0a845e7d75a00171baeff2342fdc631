@@ -1,7 +1,0 @@
-package br.com.humanhealth.security.context.impl;
-
-import br.com.humanhealth.security.context.SecurityContext;
-
-public class SecurityContextImpl implements SecurityContext {
-
-}

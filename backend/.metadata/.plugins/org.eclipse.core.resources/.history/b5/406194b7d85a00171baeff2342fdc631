@@ -1,8 +1,0 @@
-package br.com.humanhealth.security.interceptor.impl;
-
-import javax.interceptor.Interceptor;
-
-@Interceptor
-public class LoggedInInterceptor {
-
-}

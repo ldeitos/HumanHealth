@@ -1,5 +1,0 @@
-package br.com.humanhealth.entity;
-
-public interface SystemEntities {
-    Class<?>[] ENTITIES = {}; 
-}
